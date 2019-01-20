@@ -1,0 +1,11 @@
+<div class="format-actions">
+  <button class="format-action" (click)="formatText('<b>','</b>')" type="button" ><b>B</b></button>
+  <button class="format-action" (click)="formatText('<i>','</i>')" type="button"><i>I</i></button>
+  <button class="format-action" (click)="formatText('<u>','</u>')" type="button"><u>U</u></button>
+  <button class="format-action" type="button">Synonyms</button>
+</div>
+<!-- OTHER IDEAS TO DETECT THE HIGHLIGHT TEXT-->
+<!-- <div class="file" [innerHTML]=text (dblclick)='xxyyzz(some)'> -->
+<!-- <div class="file" [innerHTML]=text (contextmenu)='xxyyzz(some)'> -->
+<div class="file" [innerHTML]=text >
+</div>
